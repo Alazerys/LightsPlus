@@ -1,0 +1,18 @@
+itemGroup.tabLP=LightsPlus
+
+tile.lamp_black_off.name=Lamp (Black)
+tile.lamp_blue_off.name=Lamp (Blue)
+tile.lamp_brown_off.name=Lamp (Brown)
+tile.lamp_cyan_off.name=Lamp (Cyan)
+tile.lamp_gray_off.name=Lamp (Gray)
+tile.lamp_green_off.name=Lamp (Green)
+tile.lamp_lightblue_off.name=Lamp (Light Blue)
+tile.lamp_lightgray_off.name=Lamp (Light Gray)
+tile.lamp_lime_off.name=Lamp (Lime)
+tile.lamp_magenta_off.name=Lamp (Magenta)
+tile.lamp_orange_off.name=Lamp (Orange)
+tile.lamp_pink_off.name=Lamp (Pink)
+tile.lamp_purple_off.name=Lamp (Purple)
+tile.lamp_red_off.name=Lamp (Red)
+tile.lamp_white_off.name=Lamp (White)
+tile.lamp_yellow_off.name=Lamp (Yellow)
