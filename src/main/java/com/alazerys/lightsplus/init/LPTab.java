@@ -14,6 +14,6 @@ public class LPTab extends CreativeTabs
 	@Override
 	public Item getTabIconItem() 
 	{
-        return new ItemStack(LPBlocks.lamp_black_on).getItem();
+        return new ItemStack(LPBlocks.lamp_red_on).getItem();
 	}
 }
