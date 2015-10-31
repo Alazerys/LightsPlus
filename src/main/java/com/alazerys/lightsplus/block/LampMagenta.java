@@ -22,6 +22,7 @@ public class LampMagenta extends Block {
 		
 		this.isOn = isOn;
 		this.setBlockName("lamp_magenta_off");
+		this.setHardness(0.3F);
 		
 		if (isOn)
 			this.setLightLevel(1.0F);

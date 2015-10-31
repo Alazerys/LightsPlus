@@ -22,6 +22,7 @@ public class LampLightGray extends Block {
 		
 		this.isOn = isOn;
 		this.setBlockName("lamp_lightgray_off");
+		this.setHardness(0.3F);
 		
 		if (isOn)
 			this.setLightLevel(1.0F);
