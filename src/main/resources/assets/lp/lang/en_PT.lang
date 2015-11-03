@@ -1,0 +1,18 @@
+itemGroup.tabLP=Lights O' Plenty
+
+tile.lamp_black_off.name=Lanterrrn (Black)
+tile.lamp_blue_off.name=Lanterrrn (Blue)
+tile.lamp_brown_off.name=Lanterrrn (Brown)
+tile.lamp_cyan_off.name=Lanterrrn (Cyan)
+tile.lamp_gray_off.name=Lanterrrn (Gray)
+tile.lamp_green_off.name=Lanterrrn (Green)
+tile.lamp_lightblue_off.name=Lanterrrn (Light Blue)
+tile.lamp_lightgray_off.name=Lanterrrn (Light Gray)
+tile.lamp_lime_off.name=Lanterrrn (Lime)
+tile.lamp_magenta_off.name=Lanterrrn (Magenta)
+tile.lamp_orange_off.name=Lanterrrn (Orange)
+tile.lamp_pink_off.name=Lanterrrn (Pink)
+tile.lamp_purple_off.name=Lanterrrn (Purple)
+tile.lamp_red_off.name=Lanterrrn (Scarlet)
+tile.lamp_white_off.name=Lanterrrn (White)
+tile.lamp_yellow_off.name=Lanterrrn (Yellow)
