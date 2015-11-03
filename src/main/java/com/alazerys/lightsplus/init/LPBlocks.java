@@ -59,7 +59,7 @@ public final class LPBlocks {
 	public static Block lamp_green_off;
 	public static Block lamp_red_off;
 	public static Block lamp_black_off;
-	
+		
 	public static void init() {
 		
 		//Lamps On

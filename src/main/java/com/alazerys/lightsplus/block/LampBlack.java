@@ -6,6 +6,8 @@ import com.alazerys.lightsplus.init.LPBlocks;
 import com.alazerys.lightsplus.main.LightsPlus;
 import com.alazerys.lightsplus.main.Reference;
 
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
@@ -75,5 +77,11 @@ public class LampBlack extends Block {
 	protected ItemStack createStackedBlock(int i) {
 		return new ItemStack(LPBlocks.lamp_black_off);
 	}
+	
+    @SideOnly(Side.CLIENT)
+    public Item getItem(World world, int x, int y, int z)
+    {
+        return Item.getItemFromBlock(LPBlocks.lamp_black_off);
+    }
 	
 }
