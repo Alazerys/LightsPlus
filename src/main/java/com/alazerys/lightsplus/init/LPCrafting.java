@@ -9,6 +9,8 @@ public class LPCrafting
 {
 	public static void register()
 	{
+		
+		//Colored Lamps
 		GameRegistry.addShapedRecipe(new ItemStack(LPBlocks.lamp_black_off, 8), new Object[] { "GGG", "GRG", "GGG", 'G', new ItemStack(Blocks.stained_glass, 1, 15), 'R', Items.redstone });
 		GameRegistry.addShapedRecipe(new ItemStack(LPBlocks.lamp_blue_off, 8), new Object[] { "GGG", "GRG", "GGG", 'G', new ItemStack(Blocks.stained_glass, 1, 11), 'R', Items.redstone });
 		GameRegistry.addShapedRecipe(new ItemStack(LPBlocks.lamp_brown_off, 8), new Object[] { "GGG", "GRG", "GGG", 'G', new ItemStack(Blocks.stained_glass, 1, 12), 'R', Items.redstone });
@@ -25,5 +27,21 @@ public class LPCrafting
 		GameRegistry.addShapedRecipe(new ItemStack(LPBlocks.lamp_red_off, 8), new Object[] { "GGG", "GRG", "GGG", 'G', new ItemStack(Blocks.stained_glass, 1, 14), 'R', Items.redstone });
 		GameRegistry.addShapedRecipe(new ItemStack(LPBlocks.lamp_white_off, 8), new Object[] { "GGG", "GRG", "GGG", 'G', new ItemStack(Blocks.stained_glass, 1, 0), 'R', Items.redstone });
 		GameRegistry.addShapedRecipe(new ItemStack(LPBlocks.lamp_yellow_off, 8), new Object[] { "GGG", "GRG", "GGG", 'G', new ItemStack(Blocks.stained_glass, 1, 4), 'R', Items.redstone });
+	
+		//Wood Lamps
+		GameRegistry.addShapedRecipe(new ItemStack(LPBlocks.lamp_acacia_off, 4), new Object[] { "PGP", "GRG", "PGP", 'P', new ItemStack(Blocks.planks, 1, 4), 'G', Blocks.stained_glass_pane, 'R', Items.redstone });
+		GameRegistry.addShapedRecipe(new ItemStack(LPBlocks.lamp_birch_off, 4), new Object[] { "PGP", "GRG", "PGP", 'P', new ItemStack(Blocks.planks, 1, 2), 'G', Blocks.stained_glass_pane, 'R', Items.redstone });
+		GameRegistry.addShapedRecipe(new ItemStack(LPBlocks.lamp_darkoak_off, 4), new Object[] { "PGP", "GRG", "PGP", 'P', new ItemStack(Blocks.planks, 1, 5), 'G', Blocks.stained_glass_pane, 'R', Items.redstone });
+		GameRegistry.addShapedRecipe(new ItemStack(LPBlocks.lamp_jungle_off, 4), new Object[] { "PGP", "GRG", "PGP", 'P', new ItemStack(Blocks.planks, 1, 3), 'G', Blocks.stained_glass_pane, 'R', Items.redstone });
+		GameRegistry.addShapedRecipe(new ItemStack(LPBlocks.lamp_oak_off, 4), new Object[] { "PGP", "GRG", "PGP", 'P', new ItemStack(Blocks.planks, 1, 0), 'G', Blocks.stained_glass_pane, 'R', Items.redstone });
+		GameRegistry.addShapedRecipe(new ItemStack(LPBlocks.lamp_spruce_off, 4), new Object[] { "PGP", "GRG", "PGP", 'P', new ItemStack(Blocks.planks, 1, 1), 'G', Blocks.stained_glass_pane, 'R', Items.redstone });
+		GameRegistry.addShapedRecipe(new ItemStack(LPBlocks.lamp_acacia_off, 4), new Object[] { "PGP", "GRG", "PGP", 'P', new ItemStack(Blocks.planks, 1, 4), 'G', Blocks.glass_pane, 'R', Items.redstone });
+		GameRegistry.addShapedRecipe(new ItemStack(LPBlocks.lamp_birch_off, 4), new Object[] { "PGP", "GRG", "PGP", 'P', new ItemStack(Blocks.planks, 1, 2), 'G', Blocks.glass_pane, 'R', Items.redstone });
+		GameRegistry.addShapedRecipe(new ItemStack(LPBlocks.lamp_darkoak_off, 4), new Object[] { "PGP", "GRG", "PGP", 'P', new ItemStack(Blocks.planks, 1, 5), 'G', Blocks.glass_pane, 'R', Items.redstone });
+		GameRegistry.addShapedRecipe(new ItemStack(LPBlocks.lamp_jungle_off, 4), new Object[] { "PGP", "GRG", "PGP", 'P', new ItemStack(Blocks.planks, 1, 3), 'G', Blocks.glass_pane, 'R', Items.redstone });
+		GameRegistry.addShapedRecipe(new ItemStack(LPBlocks.lamp_oak_off, 4), new Object[] { "PGP", "GRG", "PGP", 'P', new ItemStack(Blocks.planks, 1, 0), 'G', Blocks.glass_pane, 'R', Items.redstone });
+		GameRegistry.addShapedRecipe(new ItemStack(LPBlocks.lamp_spruce_off, 4), new Object[] { "PGP", "GRG", "PGP", 'P', new ItemStack(Blocks.planks, 1, 1), 'G', Blocks.glass_pane, 'R', Items.redstone });
+
+
 	}
 }

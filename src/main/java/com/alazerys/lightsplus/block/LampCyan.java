@@ -79,4 +79,5 @@ public class LampCyan extends Block {
     {
         return Item.getItemFromBlock(LPBlocks.lamp_cyan_off);
     }
+    
 }

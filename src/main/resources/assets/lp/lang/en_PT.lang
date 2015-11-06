@@ -16,3 +16,10 @@ tile.lamp_purple_off.name=Lanterrrn (Purple)
 tile.lamp_red_off.name=Lanterrrn (Scarlet)
 tile.lamp_white_off.name=Lanterrrn (White)
 tile.lamp_yellow_off.name=Lanterrrn (Yellow)
+
+tile.lamp_acacia_off.name=Acacia Lanterrrn
+tile.lamp_birch_off.name=Birch Lanterrrn
+tile.lamp_darkoak_off.name=Dark Oak Lanterrrn
+tile.lamp_jungle_off.name=Jungle Lanterrrn
+tile.lamp_oak_off.name=Oak Lanterrrn
+tile.lamp_spruce_off.name=Spruce Lanterrrn

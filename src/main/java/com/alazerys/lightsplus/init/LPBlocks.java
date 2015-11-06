@@ -1,26 +1,31 @@
 package com.alazerys.lightsplus.init;
 
+import com.alazerys.lightsplus.block.LampAcacia;
+import com.alazerys.lightsplus.block.LampBirch;
 import com.alazerys.lightsplus.block.LampBlack;
 import com.alazerys.lightsplus.block.LampBlue;
 import com.alazerys.lightsplus.block.LampBrown;
 import com.alazerys.lightsplus.block.LampCyan;
+import com.alazerys.lightsplus.block.LampDarkOak;
 import com.alazerys.lightsplus.block.LampGray;
 import com.alazerys.lightsplus.block.LampGreen;
+import com.alazerys.lightsplus.block.LampJungle;
 import com.alazerys.lightsplus.block.LampLightBlue;
 import com.alazerys.lightsplus.block.LampLightGray;
 import com.alazerys.lightsplus.block.LampLime;
 import com.alazerys.lightsplus.block.LampMagenta;
+import com.alazerys.lightsplus.block.LampOak;
 import com.alazerys.lightsplus.block.LampOrange;
 import com.alazerys.lightsplus.block.LampPink;
 import com.alazerys.lightsplus.block.LampPurple;
 import com.alazerys.lightsplus.block.LampRed;
+import com.alazerys.lightsplus.block.LampSpruce;
 import com.alazerys.lightsplus.block.LampWhite;
 import com.alazerys.lightsplus.block.LampYellow;
 import com.alazerys.lightsplus.main.LightsPlus;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
 
 public final class LPBlocks {
 	
@@ -59,6 +64,23 @@ public final class LPBlocks {
 	public static Block lamp_green_off;
 	public static Block lamp_red_off;
 	public static Block lamp_black_off;
+	
+	//Wood Lamps On
+	public static Block lamp_acacia_on;
+	public static Block lamp_birch_on;
+	public static Block lamp_darkoak_on;
+	public static Block lamp_jungle_on;
+	public static Block lamp_oak_on;
+	public static Block lamp_spruce_on;
+	
+	
+	//Wood Lamps Off
+	public static Block lamp_acacia_off;
+	public static Block lamp_birch_off;
+	public static Block lamp_darkoak_off;
+	public static Block lamp_jungle_off;
+	public static Block lamp_oak_off;
+	public static Block lamp_spruce_off;
 		
 	public static void init() {
 		
@@ -97,6 +119,22 @@ public final class LPBlocks {
 		lamp_green_off = new LampGreen(false).setCreativeTab(LightsPlus.tabLP);
 		lamp_red_off = new LampRed(false).setCreativeTab(LightsPlus.tabLP);
 		lamp_black_off = new LampBlack(false).setCreativeTab(LightsPlus.tabLP);
+		
+		//Wood Lamps On
+		lamp_acacia_on = new LampAcacia(true);
+		lamp_birch_on = new LampBirch(true);
+		lamp_darkoak_on = new LampDarkOak(true);
+		lamp_jungle_on = new LampJungle(true);
+		lamp_oak_on = new LampOak(true);
+		lamp_spruce_on = new LampSpruce(true);
+		
+		//Wood Lamps Off
+		lamp_acacia_off = new LampAcacia(false).setCreativeTab(LightsPlus.tabLP);
+		lamp_birch_off = new LampBirch(false).setCreativeTab(LightsPlus.tabLP);
+		lamp_darkoak_off = new LampDarkOak(false).setCreativeTab(LightsPlus.tabLP);
+		lamp_jungle_off = new LampJungle(false).setCreativeTab(LightsPlus.tabLP);
+		lamp_oak_off = new LampOak(false).setCreativeTab(LightsPlus.tabLP);
+		lamp_spruce_off = new LampSpruce(false).setCreativeTab(LightsPlus.tabLP);
 	}
 	
 	public static void register() {
@@ -136,6 +174,22 @@ public final class LPBlocks {
 		GameRegistry.registerBlock(lamp_green_off, "lamp_green_off");
 		GameRegistry.registerBlock(lamp_red_off, "lamp_red_off");
 		GameRegistry.registerBlock(lamp_black_off, "lamp_black_off");
+		
+		//Wood Lamps On
+		GameRegistry.registerBlock(lamp_acacia_on, "lamp_acacia_on");
+		GameRegistry.registerBlock(lamp_birch_on, "lamp_birch_on");
+		GameRegistry.registerBlock(lamp_darkoak_on, "lamp_darkoak_on");
+		GameRegistry.registerBlock(lamp_jungle_on, "lamp_jungle_on");
+		GameRegistry.registerBlock(lamp_oak_on, "lamp_oak_on");
+		GameRegistry.registerBlock(lamp_spruce_on, "lamp_spruce_on");
+		
+		//Wood Lamps Off
+		GameRegistry.registerBlock(lamp_acacia_off, "lamp_acacia_off");
+		GameRegistry.registerBlock(lamp_birch_off, "lamp_birch_off");
+		GameRegistry.registerBlock(lamp_darkoak_off, "lamp_darkoak_off");
+		GameRegistry.registerBlock(lamp_jungle_off, "lamp_jungle_off");
+		GameRegistry.registerBlock(lamp_oak_off, "lamp_oak_off");
+		GameRegistry.registerBlock(lamp_spruce_off, "lamp_spruce_off");
 	}
 
 }

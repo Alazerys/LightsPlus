@@ -16,3 +16,10 @@ tile.lamp_purple_off.name=Lamp (Purple)
 tile.lamp_red_off.name=Lamp (Red)
 tile.lamp_white_off.name=Lamp (White)
 tile.lamp_yellow_off.name=Lamp (Yellow)
+
+tile.lamp_acacia_off.name=Acacia Lamp
+tile.lamp_birch_off.name=Birch Lamp
+tile.lamp_darkoak_off.name=Dark Oak Lamp
+tile.lamp_jungle_off.name=Jungle Lamp
+tile.lamp_oak_off.name=Oak Lamp
+tile.lamp_spruce_off.name=Spruce Lamp
